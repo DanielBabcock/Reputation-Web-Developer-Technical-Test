@@ -1,14 +1,49 @@
 {
-    "cards": [
+    "hero-profile-image": "assets/images/_.png",
+    "hero-name": "Simon Chau, M.D.",
+    "hero-category": "Cardiology",
+    "hero-rating": "5.0",
+    "hero-phone-text": "(555)656-7479",
+    "hero-phone-link": 5556567479,
+    "hero-cta-link": "",
+    "info-cards": [
+        {        
+            "info1-heading": "ABOUT SIMON CHAU, M.D.",
+            "info1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet. Nibh sed pulvinar proin
+gravida hendrerit lectus a. Sed risus ultricies tristique nulla aliquet enim. Eget nunc lobortis mattis
+aliquam faucibus.",
+            "info1-bullets": [
+                "<strong>Languages:</strong> English, Cantonese",
+                "<strong>Gender:</strong> Male"                
+            ]
+        },
         {
-            "id": 0,         
-            "rep-card--profile": true,   
-            "rep-card--profile-image": "assets/images/_.png",            
-        },        
+            "info2-heading": "EDUCATION AND EXPERIENCE",            
+            "info2-sub-heading1": "Education",
+            "info2-sub-heading1-bullets": [
+                "Medical School: Duke University"
+            ],
+            "info2-sub-heading2": "Affiliations",         
+            "info2-sub-heading2-bullets": [
+                "SIM Heart Institute",
+                "SIM Hospital Naperville"
+            ]
+        },
         {
-            "id": 0,         
-            "rep-card--profile": true,   
-            "rep-card--profile-image": "assets/images/_.png",            
+            "info3-heading": "INSURANCES ACCEPTED",
+            "info3-sub-heading1-bullets": [
+                "Aetna Classic",
+                "Blue Choice Select PPO",
+                "Blue Cross Community MMAI",
+                "Coventry PPO"                
+            ],
+            "info3-sub-heading2-bullets": [                
+                "Humana Medicare Advantage PPO",
+                "Humana National EPO",
+                "UniCare HMO",
+                "United Healthcare Choice Plus PPO"
+            ]
         }
     ]
 }

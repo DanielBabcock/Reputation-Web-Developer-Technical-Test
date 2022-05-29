@@ -3,33 +3,142 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>World Traveler</title>
+        <title>Reputation Web Dev - Technical Test</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="shortcut icon" type="image/jpg" href="assets/images/rep-favicon2.png"/>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
+        <!-- Color theme - 
+  --gray: #f4f5f5;
+  --r4e-black: #131515;
+  --r4e-grey1: #4e5656;
+  --r4e-grey2: #6b7676;
+  --r4e-turquoise1: #004f5d;
+  --r4e-turquoise2: #056a81;
+  --r4e-light-turquoise1: #f5fbfc;
+
+
+Reviews summary/stars widgets - 
+Stylesheets - 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://widgets.reputation.com/lib/widgets.css">
+
+URL - 
+https://widgetsproxy.localsearchprofiles.com/proxy.aspx?URL=https%3A%2F%2Fwidgets.reputation.com%2Fwidgets%2F5ce462d8659b856341bdbadf%2Frun%3Ftk%3D0c683051290%26lk%3D800 -->
+
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <h1 class="">World Traveler</h1>
-            </div>
+        <div class="container">            
             <div class="row">
                 <div class="col-12">
-                    <section class="rep- rep-">
-                        <div class="row no-gutters">
-                            
+                    <section class="rep-hero-card">
+                        <div class="row justify-content-between">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <!-- hero-profile-image -->
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <!-- "hero-name" H1: 
+                                        "hero-category" <p>
+                                        "hero-rating" widget -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- "hero-phone-text"
+                                        "hero-phone-link"
+                                        "hero-cta-link" -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </div>
-                <div class="col-md-6">
-                    
-                </div>
-                <div class="col-md-6">
-                    <section class="rep-">
-                        
-                    </section>
-                </div>
+                
+
             </div>                      
+        </div>
+        <div class="container-fluid info-card-container">
+            <div class="row">
+                <div class="col-12">
+                    <section class="rep-info-card1">                           
+                        <h2>
+                            {{info1-heading}}
+                        </h2>
+                        <p>
+                            {{info1-text}}
+                        </p>
+                        <ul>
+                            {{#each info-cards}}
+                            <li>
+                                {{this.info1-bullets}}
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </section>
+
+                    <section class="rep-info-card2">
+                        <div class="row">
+                            <h2>
+                                {{info2-heading}}
+                            </h2>
+                            <div class="col-sm-6">
+                                <p>
+                                    <strong>{{info2-sub-heading1}}</strong>
+                                </p>
+                                <ul>
+                                    {{#each info-cards}}
+                                    <li>
+                                        {{this.info2-sub-heading1-bullets}}
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>
+                                    <strong>{{info2-sub-heading2}}</strong>
+                                </p>
+                                <ul>
+                                    {{#each info-cards}}
+                                    <li>
+                                        {{this.info2-sub-heading2-bullets}}
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                            
+                    <section class="rep-info-card3">
+                        <div class="row">
+                            <h2>
+                                {{info3-heading}}
+                            </h2>
+                            <div class="col-sm-6">                                
+                                <ul>
+                                    {{#each info-cards}}
+                                    <li>
+                                        {{this.info3-sub-heading1-bullets}}
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">                                
+                                <ul>
+                                    {{#each info-cards}}
+                                    <li>
+                                        {{this.info3-sub-heading2-bullets}}
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </section>  
+                </div>
+            </div>                                                                
         </div>
       </div>
    </body>   

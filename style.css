@@ -3008,7 +3008,7 @@ small {
   text-transform: lowercase !important; }
 
 /*  Core Mixins */
-/* WT - Atoms */
+/* rep - Atoms */
 .rep-card--travel {
   position: relative;
   display: -ms-flexbox;
@@ -3088,8 +3088,5 @@ small {
       color: #333333;
       text-align: left;
       line-height: 28px; }
-
-.page-home--h1 {
-  margin: 80px 0 0 10px; }
 
 /*# sourceMappingURL=style.css.map */
