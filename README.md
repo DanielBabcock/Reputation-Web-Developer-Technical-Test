@@ -14,7 +14,7 @@
 - - - One possible solution is to clamp text overflow, example below. AGAIN: should determine Product/User further functionality is added.
     <pre>
         <code>
-            .wt-card--travel-body-text {
+            .rep-card--travel-body-text {
                 display: -webkit-box;
                 -webkit-line-clamp: 2;
                 -webkit-box-orient: vertical;
@@ -31,7 +31,7 @@
 
 <pre> 
   <code>
-    sass --watch css-core/wt.scss:style.css
+    sass --watch css-core/rep.scss:style.css
       &&
     http-server -p 8080
   </code>
@@ -51,7 +51,7 @@
   - [grid.scss](./world-traveler/css-core/grid.scss)
   - [mixins.scss](./world-traveler/css-core/mixins.scss)
   - [typography.scss](./world-traveler/css-core/typography.scss)
-  - [wt-reset.scss](./world-traveler/css-core/wt-reset.scss)
+  - [rep-reset.scss](./world-traveler/css-core/rep-reset.scss)
   - [wt.scss](./world-traveler/css-core/wt.scss)
 - [js/](./world-traveler/js)
   - [jquery/](./world-traveler/js/jquery)

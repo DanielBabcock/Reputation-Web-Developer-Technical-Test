@@ -28,73 +28,73 @@ small {
 
 /* Type Components
    ========================================================================== */
-.wt-text--h1,
-.wt-text--h2,
-.wt-text--h3,
-.wt-text--h4,
-.wt-text--h5,
-.wt-text--h6,
-.wt-text--subhead,
-.wt-text--body,
-.wt-text--caption,
-.wt-text--support {
+.rep-text--h1,
+.rep-text--h2,
+.rep-text--h3,
+.rep-text--h4,
+.rep-text--h5,
+.rep-text--h6,
+.rep-text--subhead,
+.rep-text--body,
+.rep-text--caption,
+.rep-text--support {
 	display: block;
 	line-height: $core-line-height;
 	font-weight: 400;
 }
 
 /* Type Component Definitions */
-.wt-text--h1 {
+.rep-text--h1 {
 	font-weight: 300;
 	font-size: 3rem;
 	line-height: 4.375rem;
 	color: $asphalt;
 }
 
-.wt-text--h2 {
+.rep-text--h2 {
 	font-size: 2.813rem;
 	line-height: 3.75rem;
 }
 
-.wt-text--h3 {
+.rep-text--h3 {
 	font-size: 2.125rem;
 	line-height: 2.5rem;
 }
 
-.wt-text--h4 {
+.rep-text--h4 {
 	font-size: 1.625rem;
 	line-height: 2rem;
 }
 
-.wt-text--h5 {
+.rep-text--h5 {
 	font-size: 1.375rem;
-	font-family: 'WT-Mark-Bold';
+	font-family: 'rep-Mark-Bold';
 	line-height: 2rem;
 }
 
-.wt-text--h6 {
+.rep-text--h6 {
 	font-size: 1.125rem;
-	font-family: 'WT-Mark-Bold';
+	font-family: 'rep-Mark-Bold';
 	line-height: 1.688rem;
 }
 
-.wt-text--product {
+.rep-text--product {
 	font-size: $core-font-size;
 	line-height: 1.625rem;
-	font-family: 'WT-Mark-Bold';
+	font-family: 'rep-Mark-Bold';
 }
 
-.wt-text--body {
+.rep-text--body {
 	font-size: $core-font-size;
 	line-height: 1.625rem;
 }
 
-.wt-text--caption {
+.rep-text--caption {
 	font-size: 0.875rem;
 	line-height: 1.375rem;
 }
 
-.wt-text--tag {
+.rep-text--tag {
 	font-size: 0.875rem;
 	line-height: 1.375rem;
 	text-transform: uppercase;
@@ -102,7 +102,7 @@ small {
 	font-weight: 500;
 }
 
-.wt-text--support {
+.rep-text--support {
 	font-size: 0.75rem;
 	// font-family: $core-font-family-medium;
 	line-height: 1.25rem;
@@ -111,88 +111,88 @@ small {
 
 /* DOM Heirarchy Bindings */
 h1 {
-	@extend.wt-text--h1;
+	@extend.rep-text--h1;
 }
 
 h2 {
-	@extend.wt-text--h2;
+	@extend.rep-text--h2;
 }
 
 h3 {
-	@extend.wt-text--h3;
+	@extend.rep-text--h3;
 }
 
 h4 {
-	@extend.wt-text--h4;
+	@extend.rep-text--h4;
 }
 
 h5 {
-	@extend.wt-text--h5;
+	@extend.rep-text--h5;
 }
 
 h6 {
-	@extend.wt-text--h6;
+	@extend.rep-text--h6;
 }
 
 p {
-	@extend.wt-text--body;
+	@extend.rep-text--body;
 }
 
 small {
-	@extend.wt-text--support;
+	@extend.rep-text--support;
 }
 
 /* Type Modifiers
    ========================================================================== */
 
 /* Weight - Style */
-.wt-text--light {
+.rep-text--light {
 	font-weight: lighter !important;
 	font-weight: 300 !important;
 }
-.wt-text--regular {
+.rep-text--regular {
 	font-weight: normal !important;
 	font-weight: 400 !important;
 }
-.wt-text--semibold {
+.rep-text--semibold {
 	font-weight: bold !important;
 	font-weight: 600 !important;
 }
-.wt-text--bold {
+.rep-text--bold {
 	font-weight: bold !important;
 	font-weight: 700 !important;
 }
-.wt-text--italic {
+.rep-text--italic {
 	font-style: italic !important;
 }
 
 /* Color Modifiers */
 
 /* System Greys */
-.wt-text--asphalt {
+.rep-text--asphalt {
 	color: $asphalt !important;
 }
-.wt-text--chrome-dark {
+.rep-text--chrome-dark {
 	color: $chrome-dark !important;
 }
-.wt-text--slate {
+.rep-text--slate {
 	color: $slate !important;
 }
-.wt-text--chrome-light {
+.rep-text--chrome-light {
 	color: $chrome-light !important;
 }
-.wt-text--chrome-ultra-light {
+.rep-text--chrome-ultra-light {
 	color: $chrome-ultra-light !important;
 }
-.wt-text--calcite {
+.rep-text--calcite {
 	color: $calcite !important;
 }
-.wt-text--white {
+.rep-text--white {
 	color: $white !important;
 }
 
 /*  System Reds */
-.wt-text--crimson {
+.rep-text--crimson {
 	// color: $ !important;
 }
 
@@ -202,12 +202,12 @@ small {
 
 
 /* Transforms */
-.wt-text--transform-capitalize {
+.rep-text--transform-capitalize {
 	text-transform: capitalize !important;
 }
-.wt-text--transform-uppercase {
+.rep-text--transform-uppercase {
 	text-transform: uppercase !important;
 }
-.wt-text--transform-lowercase {
+.rep-text--transform-lowercase {
 	text-transform: lowercase !important;
 }
