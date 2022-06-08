@@ -1,0 +1,43 @@
+.rep-hero-section {
+    background-color: $gray;
+    padding: 50px 5px;
+        margin-top: 10px;
+}
+.card-doctor--hero {
+    background-color: $white;
+    padding: 34px;
+    border-radius: 0.4rem;
+    border: 1.5px solid #6b767657;
+    & img {
+        width:  200px;
+        border-radius: 0.4rem;
+    }
+    & h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .r4e-widget .rating {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .r4e-widget .rating .value {
+        color: $r4e-black;
+    }   
+    @media only screen and (max-width: 576px) {
+        text-align: center;
+        margin: 10px auto;
+        .rating {
+            display: block !important;
+            margin: 0 auto;
+        }
+        & h1 {
+                margin-top: 1.4rem;
+        }
+    }
+    @media only screen and (max-width: 340px) {
+        .btn-green {
+            margin-top: 25px;
+        }
+    }
+}

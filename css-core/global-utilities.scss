@@ -27,6 +27,16 @@
 	align-items: center;
 }
 
+.rep-block-zero {
+	display: block;
+	margin: 0 auto;
+}
+
+.rep-flex-zero {
+	display: flex;
+	margin: 0 auto;
+}
+
 /* All Sides */
 .rep-margin--10 {
 	margin: 0.625em !important;
@@ -134,6 +144,9 @@
 /*  Bottom only */
 .rep-margin--bottom-10 {
 	margin-bottom: 0.625em !important;
+}
+.rep-margin--bottom-15 {
+	margin-bottom: 0.938em !important;
 }
 .rep-margin--bottom-20 {
 	margin-bottom: 1.25em !important;
@@ -443,7 +456,7 @@
 		hyphens: auto;
 	}
 }
-/* Media query breakpoint classes based on being mirrors to the min-width classes in grid.scss
+/* Media query breakpoint classes based on being opposing mirrors to the min-width classes in grid.scss
  ========================================================================== */
 @media (max-width: 576px) {
 	.d-max-sm-none {

@@ -1,0 +1,21 @@
+
+.rep-info-card {
+    padding: 50px 5px;
+    border-top: 1.5px solid $gray;
+    border-top: 1.5px solid $gray;
+    & h2 {
+        margin-bottom: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    &:first-child {
+        border-top: none
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+    & ul {
+        padding: 0 0 0 2.2rem;
+    }
+}
