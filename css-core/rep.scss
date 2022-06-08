@@ -25,13 +25,17 @@
 @import './mixins.scss';
 
 /* rep - Atoms */
-// @import '../patterns/atoms/atom--name/atom--name.scss';
+@import '../patterns/atoms/buttons/buttons.scss';
 
 // /* rep - Molecules */
-@import '../patterns/molecules/card--travel/card--travel.scss';
+@import '../patterns/molecules/nav-health--simple/nav-health--simple.scss';
+@import '../patterns/molecules/footer-health--simple/footer-health--simple.scss';
+@import '../patterns/molecules/widgets/widgets.scss';
 
 // /* rep - Organisms */
-// @import '../patterns/organisms/organism/organism.scss';
+// /* rep - Organisms - Cards*/
+@import '../patterns/organisms/card-doctor--hero/card-doctor--hero.scss';
+@import '../patterns/organisms/card-doctor--info/card-doctor--info.scss';
 
 // /* rep - Template */
-@import '../patterns/templates/page-home/page-home.scss';
+@import '../patterns/templates/doctors/doctors.scss';

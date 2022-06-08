@@ -16,23 +16,26 @@
   ========================================================================== */
 /* System Greys */
 $asphalt: #333333;
-
 $slate: #54575a;
-$chrome-dark: #898b8e;
+$chrome-dark: #898b8e; 
 $chrome-light: #bcbcbc;
 $chrome-ultra-light: #EEEFF2;
 $calcite: #f5f5f5;
 $white: #ffffff;
 
-/*  System ____ */
-// $crimson: #960b1c;
+/*  System color theme */
+$gray: #f4f5f5;
+$r4e-black: #131515;
+$r4e-grey1: #4e5656;
+$r4e-grey2: #6b7676; /* RGB 107 118 118 */
+$r4e-turquoise1: #004f5d;
+$r4e-turquoise2: #056a81;
+$r4e-light-turquoise1: #f5fbfc;
 
-
-/* Primary WT ____ */
-
-
-/* Secondary WT ____ */
-
+/* Secondary REP ____ */
+$widget-grey1: #e5e6e6;
+$widget-grey2: #dcdfdf;
+$widget-blue: #077d97;
 
 
 
@@ -44,10 +47,18 @@ $white: #ffffff;
 	// font-display: block;
 	// src: url('');
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/Open Sans/open-sans-regular.woff2") format("woff2"),
+       url("assets/fonts/Open Sans/open-sans-regular.woff") format("woff");
+}
+@font-face {
+	font-family: "Open Sans 600";
+	font-display: block;
+  src: url("assets/fonts/Open Sans/open-sans-600.woff2") format("woff2"),
+       url("assets/fonts/Open Sans/open-sans-600.woff") format("woff");
+}
 
-// @font-face {
-	
-// }
 
 
 
@@ -56,8 +67,8 @@ $white: #ffffff;
 /* Prefix all variables below with $core- to make them easy to identify when used in component files */
 
 /* Core Font Stack */
-$core-font-family: "Source Sans Pro",'Arial',sans-serif;
-// $core-font-family-bold: '', 'Arial', sans-serif;
+$core-font-family: "Open Sans",'Arial',sans-serif;
+$core-font-family-bold: 'Open Sans 600', 'Arial', sans-serif;
 // $core-font-family-medium: '', 'Arial', sans-serif;
 $core-font-size: 1em;
 $core-line-height: 1.5;

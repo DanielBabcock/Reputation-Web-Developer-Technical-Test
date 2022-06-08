@@ -20,17 +20,21 @@
 
 html,
 body {
-	min-height: 100vh; // WT Hack
+	min-height: 100vh; // Hack
 	font-family: $core-font-family;
 	font-size: $core-font-size;
-	background-color: $chrome-ultra-light !important; // WT Hack (should not have to do !important)
-	color: $asphalt;
+	background-color: $gray; 
+	color: $r4e-black;
 	margin: 0px;
 	line-height: $core-line-height;
 	-webkit-text-size-adjust: 100%; 
 	/* Prevent adjustments of font size after orientation changes in iOS. */
 	/* Standardizes the focus state of all elements for visual accessibility, */
 	/* especially when tabbing through the interface */
+}
+
+body {
+	padding-top: 58px; // hack
 }
 
 *:focus {
@@ -151,9 +155,13 @@ sup {
  */
 
 img {
-	border-style: none;
+	border-style: none;	
 }
 
+// images can't break container on smaller devices, override backgrounds
+img, iframe {
+	max-width: 95vw;
+}
 /* Forms
    ========================================================================== */
 
@@ -360,4 +368,5 @@ template {
  */
 ul {
 	padding: 0;
+	
 }
